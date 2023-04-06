@@ -3,5 +3,8 @@ body{
    font-family:'Rubik';
    padding:unset;
    margin:unset;
+   width:100vw;
+   display:flex;
+   flex-direction: column;
 } 
 

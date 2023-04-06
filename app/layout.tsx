@@ -1,3 +1,5 @@
+import Navbar from './components/Navbar/Navbar'
+import Dashboard from './components/dashboard/Dashboard'
 import './globals.css'
 
 export const metadata = {
@@ -11,8 +13,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="it">
+      <body>
+        <Navbar/>
+        <Dashboard/>
+      </body>
     </html>
   )
 }

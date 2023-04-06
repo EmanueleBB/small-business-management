@@ -1,14 +1,30 @@
 .navbar {
   height: auto;
   width: 100vw;
-  border: 2px solid black;
   display: flex;
-  padding: 20px;
-  align-items: baseline;
+  padding: 20px 20px;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
 }
 .navbar .heading {
   padding: unset;
   margin: unset;
   font-weight: 500;
   font-size: 52px;
+}
+.navbar .navlink {
+  font-weight: 400;
+  font-size: 18px;
+  color: grey;
+  border: 2px solid grey;
+  transition: all 0.2s;
+  padding: 6px 20px;
+  border-radius: 30px;
+}
+.navbar .navlink:hover {
+  color: white;
+  background-color: #326571;
+  border: 2px solid #326571;
+  cursor: pointer;
 }/*# sourceMappingURL=Navbar.styles.css.map */

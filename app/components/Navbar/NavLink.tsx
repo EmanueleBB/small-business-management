@@ -1,8 +1,14 @@
-import React from 'react'
+import './Navbar.styles.css'
 
-const NavLink = () => {
+interface NavLinkProps{
+   label:string;
+}
+
+const NavLink:React.FC<NavLinkProps> = ({
+   label
+}) => {
   return (
-    <div>NavLink</div>
+    <div className='navlink'>{label}</div>
   )
 }
 
