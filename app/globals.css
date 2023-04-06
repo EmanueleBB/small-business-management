@@ -8,3 +8,13 @@ body{
    flex-direction: column;
 } 
 
+.sub-dashboards-wrapper{
+   display:flex;
+   width:80vw;
+   height:auto;
+   box-sizing: border-box;
+   align-self: center;
+   margin-top:5vh;
+   justify-content: space-between;
+}
+
