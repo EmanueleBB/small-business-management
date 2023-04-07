@@ -1,7 +1,7 @@
 .navbar {
    height: auto;
    width: 100vw;
-
+   border-bottom: 1px solid rgb(198, 198, 198);
    display: flex;
    padding: 20px 20px;
    align-items: center;
@@ -12,22 +12,23 @@
       padding: unset;
       margin: unset;
       font-weight: 500;
-      font-size: 52px;
+      font-size: 46px;
    }
 
    .navlink {
       font-weight: 400;
       font-size: 18px;
-      color: grey;
-      border: 2px solid grey;
-      transition: all 0.2s;
+      color: black;
+      border: 2px solid black;
+      transition: all 0.1s;
       padding: 6px 20px;
       border-radius: 30px;
 
       &:hover {
-         color: white;
-         background-color: #326571;
-         border: 2px solid #326571;
+         color: #e3decc;
+         background-color: black;
+         border: 2px solid black;
+
          cursor: pointer;
       }
    }

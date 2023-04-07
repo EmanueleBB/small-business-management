@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar/Navbar'
+import CustomersBoard from './components/customers/CustomersBoard'
 import Dashboard from './components/dashboard/Dashboard'
-import History from './components/history/History'
+import History from './components/history/HistoryBoard'
 import './globals.css'
 
 export const metadata = {
@@ -20,7 +21,7 @@ export default function RootLayout({
         <Dashboard/>
         <div className='sub-dashboards-wrapper'>
           <History/>
-          <History/>
+          <CustomersBoard/>
         </div>
         
       </body>

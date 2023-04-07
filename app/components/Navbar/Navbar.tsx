@@ -3,7 +3,7 @@ import NavLink from './NavLink'
 import './Navbar.styles.css'
 
 const Navbar = () => {
-   const links:string[]=['Overview','storico','altro','Da fare oggi','ciao','tutti']
+   const links:string[]=['Oggi','Settimana','Mese','Clienti','Storico','Vista generale']
 
   return (
     <div className="navbar">

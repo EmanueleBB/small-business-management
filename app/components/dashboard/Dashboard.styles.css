@@ -1,20 +1,27 @@
 .dashboard {
-  width: 80vw;
+  width: 92vw;
   height: 600px;
-  background-color: #e7e7e7;
-  margin-top: 10vh;
+  background-color: #8cbda8;
+  outline: 3px solid rgb(26, 25, 25);
+  transition: 0.2s;
+  margin-top: 80px;
   border-radius: 28px;
   align-self: center;
   padding: 24px 80px;
   box-sizing: border-box;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 .dashboard:hover {
-  background-color: #e1e1e1;
+  outline: 4px solid black;
+  box-shadow: 3px 3px 0px 2px black;
 }
 .dashboard h1 {
   font-weight: 500;
   font-size: 48px;
   margin: none;
   padding: none;
+  display: inline-block;
+}
+.dashboard h1:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=Dashboard.styles.css.map */
