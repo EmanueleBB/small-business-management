@@ -5,15 +5,14 @@ import './Dashboard.styles.css'
 import useDashboardStore from '@/app/hooks/dashboardStore'
 
 
-
 const Dashboard:React.FC= () => {
 
 	const dashboardStore = useDashboardStore();
-	let lactiveItemLabel=dashboardStore.activeNavItem;
+	let activeItemLabel=dashboardStore.activeNavItem;
 
 	return (
 		<div className='dashboard'>
-			<h1>{lactiveItemLabel}</h1>
+			<h1>{activeItemLabel}</h1>
 		</div>
 	)
 }

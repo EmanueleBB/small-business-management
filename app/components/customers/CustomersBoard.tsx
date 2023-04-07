@@ -1,4 +1,4 @@
-
+import './Customers.styles.css'
 
 const CustomersBoard = () => {
   return (

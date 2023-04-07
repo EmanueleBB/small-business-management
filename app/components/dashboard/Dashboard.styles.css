@@ -1,7 +1,7 @@
 .dashboard {
   width: 92vw;
   height: 600px;
-  background-color: #8cbda8;
+  background-color: antiquewhite;
   outline: 3px solid rgb(26, 25, 25);
   transition: 0.2s;
   margin-top: 80px;
@@ -10,6 +10,7 @@
   padding: 24px 80px;
   box-sizing: border-box;
   transition: 0.1s;
+  color: black;
 }
 .dashboard:hover {
   outline: 4px solid black;

@@ -20,8 +20,8 @@ export default function RootLayout({
         <Navbar/>
         <Dashboard/>
         <div className='sub-dashboards-wrapper'>
-          <History/>
           <CustomersBoard/>
+          <History/>
         </div>
         
       </body>
