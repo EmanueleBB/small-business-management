@@ -2,7 +2,7 @@
 
 const CustomersBoard = () => {
   return (
-    <div className='sub-dashboard'>
+    <div className='sub-dashboard' id='Clienti'>
       
     </div>
   )

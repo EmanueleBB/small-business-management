@@ -24,8 +24,8 @@
   border-radius: 30px;
 }
 .navbar .navlink:hover {
-  color: #e3decc;
-  background-color: black;
-  border: 2px solid black;
+  color: white;
+  background-color: rgb(0, 74, 86);
+  border: 2px solid rgb(0, 74, 86);
   cursor: pointer;
 }/*# sourceMappingURL=Navbar.styles.css.map */
