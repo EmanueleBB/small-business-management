@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: white;
+  color: rgb(68, 68, 68);
 }
 
 .sub-dashboards-wrapper {
@@ -24,10 +25,4 @@ body {
   height: 30vw;
   border-radius: 28px;
   margin-bottom: 20vh;
-  outline: 3px solid rgb(26, 25, 25);
-  transition: 0.2s;
-}
-.sub-dashboard:hover {
-  outline: 4px solid black;
-  box-shadow: 3px 3px 0px 2px black;
 }/*# sourceMappingURL=globals.css.map */

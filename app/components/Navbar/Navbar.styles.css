@@ -17,7 +17,7 @@
 .navbar .navlink {
   font-weight: 400;
   font-size: 18px;
-  color: black;
+  color: rgb(68, 68, 68);
   transition: all 0.1s;
   padding: 6px 20px;
   border-radius: 30px;
@@ -25,10 +25,11 @@
 .navbar .navlink:hover {
   background-color: antiquewhite;
   cursor: pointer;
+  color: black;
 }
 .navbar .navlink:hover:nth-of-type(4) {
   background-color: rgb(255, 222, 180);
-  color: rgb(65, 37, 0);
+  color: black;
 }
 .navbar .navlink:hover:nth-of-type(5) {
   background-color: #4f929c;

@@ -1,3 +1,4 @@
+$kindablack: rgba(68, 68, 68);
 .navbar {
    height: auto;
    width: 100vw;
@@ -18,25 +19,23 @@
    .navlink {
       font-weight: 400;
       font-size: 18px;
-      color: black;
-      //border: 2px solid black;
+      color: $kindablack;
       transition: all 0.1s;
       padding: 6px 20px;
       border-radius: 30px;
 
       &:hover {
          background-color: antiquewhite;
-         //outline: 2px solid rgb(216, 216, 216);
+
          cursor: pointer;
+         color: black;
 
          &:nth-of-type(4) {
             background-color: rgb(255, 222, 180);
-            // outline: 2px solid rgb(255, 222, 180);
-            color: rgb(65, 37, 0);
+            color: black;
          }
          &:nth-of-type(5) {
             background-color: #4f929c;
-            // outline: 2px solid #4f929c;
             color: white;
          }
       }
